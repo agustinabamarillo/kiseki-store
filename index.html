@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Kiseki Store | tu dealer de prendas favorito</title>
+</head>
+<body>
+<!--------------------------------------------------HEADER---------->  
+    <header>
+<!-- banner -->
+<div class="container-fluid">
+      <section class="logoPrincipal">   
+        <img id="logotipo" src="./multimedia/logos/Logo verde y rosa.png" alt="logo principal">        
+    </section>
+    <!-- Menu Desplegable-->    
+    <a class="menu" data-bs-theme="dark" class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+        Menú
+      </a>   
+      <div data-bs-theme="dark" class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header" class="menu">
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div data-bs-theme="dark" class="offcanvas-body" class="menu">
+            <div class="menu" class="dropdown mt-3">
+                <ul class="menu" class="nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./Page/shop.html">TIENDA</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./Page/shop.html">SALE!</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Page/micuenta.html">Mi Cuenta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Page/contacto.html">Contacto</a>
+                    </li>
+                  </ul>
+              </div>
+          
+        </div>
+      </div>
+    </div>
+    </header>
+<!---------------------------------------------MAIN----------> 
+    <main class="container-fluid">
+        <h1>Tu dealer de prendas Favoritas</h1>
+<!-- Foto 1 adelanto temporada -->
+<section class="destacada-home">
+    <div class="container" id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div  class="carousel-item active">
+            <img src="./multimedia/ss24 1.jpg" class="d-block w-100" alt="adelanto de temporada">
+          </div>
+          <div class="carousel-item">
+            <img src="./multimedia/ss24 2.jpg" class="d-block w-100" alt="adelanto de temporada">
+          </div>
+          <div class="carousel-item">
+            <img src="./multimedia/ss24 3.jpg" class="d-block w-100" alt="adelanto de temporada">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+        <h2> <a href="./Page/shop.html">ADELANTO SS 2024</a></h2>
+      </div>
+<!-- Foto 2 prenda en SALE destacada -->
+<div class="container" class="img-home" id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+<div class="carousel-inner">
+<div  class="carousel-item active">
+<img src="./multimedia/sale1.jpg" class="d-block w-100" alt="prenda destacada en sale">
+</div>
+<div  class="carousel-item">
+<img src="./multimedia/sale 2.jpg" class="d-block w-100" alt="prenda destacada en sale">
+</div>
+<div  class="carousel-item">
+<img src="./multimedia/sale3.jpg" class="d-block w-100" alt="prenda destacada en sale">
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Next</span>
+</button>
+<h2><a href="./Page/shop.html">SALE!</a></h2>
+</div>
+</section>
+
+    </main>
+ <!---------------------------------------FOOTER----------> 
+    <footer>
+        <!-- info -->
+        <section class="footer-info">
+            
+        <div class="infoPie">
+            <img id="footer-logo" src="./multimedia/logos/Disminucion verde y rosa.png" alt="disminusion logo">
+            <h3>Kiseki Store</h3>
+            <p>Calle Wallavy 42, Sydney</p>
+            <p>+54 9 11 111-111</p>
+            <p>kiseki.store@unmail.com</p>
+            <!-- Redes -->
+            <a href="https://www.instagram.com/">Instagram </a> <a href="https://www.tiktok.com/es/">TikTok</a> <a href="https://web.whatsapp.com/">Whatsapp</a>
+        </div>      
+        <div class="navfooter"> 
+            <nav> 
+                <ul> <a href="./Page/micuenta.html">Mi Cuenta</a>
+                    <li><a href="./Page/construccion.html"> Mis Pedidos</a></li>
+                    <li><a href="./Page/construccion.html">Cerrar sesion</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="navfooter">
+            <nav> 
+                <ul> <a href="./Page/info.html">Informacion</a>
+                    <li><a href="./Page/info.html">Metodos de envio</a></li>
+                    <li><a href="./Page/info.html">Medios de Pago</a></li>
+                    <li><a href="./Page/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        </section>
+         <!-- Copyright --> 
+        <section class="copyright">
+            <p>KISEKI Copyright 2024 ©
+                Diseño web Milagros Amarillo, Desarrollo Agustina Amarillo | Todos los derechos reservados</p>
+        </section>
+    </footer>
+<!-- BS JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
