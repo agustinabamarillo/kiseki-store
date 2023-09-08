@@ -53,9 +53,9 @@
         </div>
         </header>
  <!---------------------------------------------MAIN---------->     
-    <main class="contacto-main">
+    <main class="d-flex flex-row ">
  <!-- Info Kiseki--> 
-        <section class="infoContacto">
+        <section class="infoContacto"  class="col-lg-6 col-12 col-sm-6">
            <div>
             <h3>Kiseki Store</h3>
             <p>Dirección: Calle Wallavy 42, Sydney CP: 6574</p>
@@ -68,29 +68,30 @@
             </div>
         </section>   
  <!-- Formulario--> 
-        <section class="form">
-            <div>
-                <form action="form.php" method="post">
-        <!-- Nommbre y Apellido-->
-                <label for="">Nombre y Apellido</label>
-                <input type="text" name="nombre" id="nombre" placeholder="Carlos Perez">
-        <!-- E-mail-->
-
-                <label for="">E-mail</label>
-                <input type="email" name="mail" id="mail" placeholder="carlosperez@gmail.com">
-        <!-- Telefono-->
-
-                <label for="">Teléfono</label>
-                <input type="tel" name="telefono" id="telefono" placeholder="(011) 1111-1111">
-        <!-- Text Area-->
-
-                <p> Comentarios</p>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-        <!-- Enviar-->               
-                <input class="boton" type="submit" value="Enviar">
-        <!-- Formulario-->
-            </div>
-            </form>
+        <section class="form" class="row" class="col-lg-6 col-12 col-sm-6">
+            <!-- Nommbre y Apellido-->
+            <div class="form-floating mb-6">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Nombre Apellido">
+                <label for="floatingInput">Nombre y Apellido</label>
+              </div>
+              <!-- E-mail-->
+              <div class="form-floating">
+                <input type="email" class="form-control" id="floatingInput" placeholder="ejemplo@mail.com.ar">
+                <label for="floatingInput">E-mail</label>
+              </div>
+              <!-- Telefono-->
+              <div class="form-floating">
+                <input type="tel" class="form-control" id="floatingInput" placeholder="(XXX) XXXX-XXXX">
+                <label for="floatingInput">Teléfono</label>
+              </div>
+               <!-- Text Area-->
+               <div class="form-floating">
+                <textarea class="form-control" placeholder="Dejanos tus dudas o comentarios" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Comentarios</label>
+              </div>
+                <!-- Enviar-->               
+                <input class="btn" data-bs-#FF22A9="button" type="submit" value="Enviar">
+                
         
         </section>
 
