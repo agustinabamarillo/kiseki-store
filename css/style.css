@@ -131,11 +131,10 @@ main {
 .contactoContainer {
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
-    align-items: flex-start;
-    justify-content: space-between;
+    align-items: center;
     flex-direction: row;
-    margin: 50px;
+    justify-content: space-around;
+    align-content: center;
 }
 
 .infoContacto {
@@ -147,7 +146,6 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
     height: 50%;
     min-height: 400px
 }
@@ -163,7 +161,7 @@ main {
 }
 
 iframe {
-    height: 70%;
+    height: 100%;
 }
 
 label {
@@ -179,7 +177,6 @@ form p {
 /* info html */
 .info-html {
     display: flex;
-
     justify-content: space-around;
     align-items: center;
 }
