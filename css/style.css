@@ -45,9 +45,8 @@ header{
 .menu{
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
     align-items: start;
-    position: absolute;
     top: 20px;
     text-decoration: none;
     font-size: 2rem;
@@ -72,23 +71,25 @@ h2{
 
 /* index html */
 .destacada-home{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
     margin: 50px;
+
 }
-.img-home{
-    display: flex;
-    flex-direction: column;
-    
-}
+
 main{
     color: #BAEE2E;
     font-size: 1.5rem;
 }
-  main img{
-    width: 500px;
- }
+
+.carru-ancho{
+    width: 50%;
+}
+.link-carru{
+    color: #FF22A9;
+    text-align: center;
+    margin: 30px;
+    text-decoration: none;
+    font-size: 80%;
+}
  /* shop html*/
 .tienda img{
     width: 300px;
@@ -109,27 +110,28 @@ main{
  .shop A{
     color: #FF22A9;
  }
- /* contacto html*/
-.contacto{
- margin: 40px;
+
+/* contacto html*/
+.main-contacto{
+    margin: 50px;
 }
 .infoContacto {
-    color: #FF22A9;       
-    }   
+        color: #FF22A9;
+    }
+       
 iframe{
-        height: 60%;
-        width: 60%;
-}
+        height: 80%;     
+    }
 label{
-    color: #FF22A9;
-    font-size: 1.2rem;               
+        color: #FF22A9;
+        font-size: 1.2rem;     
     }
 form p{
-    color: #FF22A9;
-    font-size: 1.2rem;
+        color: #FF22A9;
+        font-size: 1.2rem;
     }
 
-    /* info html */
+ /* info html */
     .info-html{
         display: flex;
         
@@ -179,9 +181,11 @@ form p{
  footer{
     background-image: url(../multimedia/FONDO\ NEGRO\ copia.png);
     background-size: cover;
+    background-position: 100%;
  }
- .redes a{
-    width: min-content;
+ .logos{
+    width: 30px;
+    margin: 2px;
  }
  .footer-info{
     display: flex;

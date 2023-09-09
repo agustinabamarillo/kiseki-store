@@ -51,79 +51,94 @@
     </div>
     </header>
 <!---------------------------------------------MAIN----------> 
-    <main class="container-fluid">
+    <main class="d-flex flex-column align-items-center">
         <h1>Tu dealer de prendas Favoritas</h1>
 <!-- Foto 1 adelanto temporada -->
-<section class="destacada-home">
-    <div class="container" id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div  class="carousel-item active">
-            <img src="./multimedia/ss24 1.jpg" class="d-block w-100" alt="adelanto de temporada">
-          </div>
-          <div class="carousel-item">
-            <img src="./multimedia/ss24 2.jpg" class="d-block w-100" alt="adelanto de temporada">
-          </div>
-          <div class="carousel-item">
-            <img src="./multimedia/ss24 3.jpg" class="d-block w-100" alt="adelanto de temporada">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Anterior</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Siguiente</span>
-        </button>
-        <h2> <a href="./Page/shop.html">ADELANTO SS 2024</a></h2>
+<section class="destacada-home" class="d-flex" class="row">
+  <div id="carouselExampleIndicators" class="carousel slide carru-ancho" class="col-12 col-sm-12 col-lg-6">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./multimedia/ss24 1.jpg" class="d-block w-100" alt="adelanto temporada 2024">
       </div>
-<!-- Foto 2 prenda en SALE destacada -->
-<div class="container" class="img-home" id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-<div class="carousel-inner">
-<div  class="carousel-item active">
-<img src="./multimedia/sale1.jpg" class="d-block w-100" alt="prenda destacada en sale">
-</div>
-<div  class="carousel-item">
-<img src="./multimedia/sale 2.jpg" class="d-block w-100" alt="prenda destacada en sale">
-</div>
-<div  class="carousel-item">
-<img src="./multimedia/sale3.jpg" class="d-block w-100" alt="prenda destacada en sale">
-</div>
-</div>
-<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-<span class="visually-hidden">Previous</span>
-</button>
-<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-<span class="carousel-control-next-icon" aria-hidden="true"></span>
-<span class="visually-hidden">Next</span>
-</button>
-<h2><a href="./Page/shop.html">SALE!</a></h2>
-</div>
-</section>
+      <div class="carousel-item">
+        <img src="./multimedia/ss24 2.jpg" class="d-block w-100" alt="adelanto temporada 2024">
+      </div>
+      <div class="carousel-item">
+        <img src="./multimedia/ss24 3.jpg" class="d-block w-100" alt="adelanto temporada 2024">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+    <div class="link-carru">
+      <h3><a class="link-carru" href="./Page/shop.html">ADELANTO SS 2024</a></h3>
+    </div>
+  </div>
 
-    </main>
+<!-- Foto 2 prenda en SALE destacada -->
+<div id="carouselExampleIndicators" class="carousel slide carru-ancho" class="col-12 col-sm-12 col-lg-6">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./multimedia/sale1.jpg" class="d-block w-100" alt="destacada sale">
+    </div>
+    <div class="carousel-item">
+      <img src="./multimedia/sale 2.jpg" class="d-block w-100" alt="destacada sale">
+    </div>
+    <div class="carousel-item">
+      <img src="./multimedia/sale3.jpg" class="d-block w-100" alt="destacada sale">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+  <div class="link-carru" >
+    <h3><a class="link-carru" href="./Page/shop.html">SALE!</a></h3>
+   </div>
+</div>
+ </section>
+
+</main>
  <!---------------------------------------FOOTER----------> 
- <footer>
+ <footer class="container-fluid">
   <!-- info -->
   
-    <section class="footer-info" class="redes">
+    <section class="footer-info" class="redes" class="container">
           <div class="infoPie">
         <img id="footer-logo" src="./multimedia/logos/Disminucion verde y rosa.png" alt="disminusion logo">
         <h3>Kiseki Store</h3>
         <p>Calle Wallavy 42, Sydney</p>
   <!-- Redes -->
-       <a href="https://www.instagram.com/">
-          <img src="./multimedia/PNG LOGOS/instagram.png" alt="instagram">
+       <a class="logos" href="https://www.instagram.com/">
+          <img class="logos"src="./multimedia/PNG LOGOS/instagram.png" alt="instagram">
         </a>
         <a href="https://www.gmail.com">
-          <img src="./multimedia/PNG LOGOS/sobre.png" alt="email">
+          <img class="logos" src="./multimedia/PNG LOGOS/sobre.png" alt="email">
         </a>
         <a href="https://www.tiktok.com/es/">
-          <img src="./multimedia/PNG LOGOS/tik-tok.png" alt="tiktok">
+          <img class="logos" src="./multimedia/PNG LOGOS/tik-tok.png" alt="tiktok">
         </a> 
         <a href="https://web.whatsapp.com/">
-          <img src="./multimedia/PNG LOGOS/whatsapp.png" alt="whatsapp">
+          <img class="logos" src="./multimedia/PNG LOGOS/whatsapp.png" alt="whatsapp">
         </a>
       </div>
   

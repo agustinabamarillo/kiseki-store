@@ -14,61 +14,61 @@
 <body>
 <!--------------------------------------------------HEADER---------->  
 <header>
-    <!-- banner -->
-    <div class="container-fluid">
-          <section class="logoPrincipal">   
-            <img id="logotipo" src="../multimedia/logos/Logo verde y rosa.png" alt="logo principal">        
-        </section>
-        <!-- Menu Desplegable-->    
-        <a class="menu" data-bs-theme="dark" class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-            Menú
-          </a>   
-          <div data-bs-theme="dark" class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-            <div class="offcanvas-header" class="menu">
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div data-bs-theme="dark" class="offcanvas-body" class="menu">
-                <div class="menu" class="dropdown mt-3">
-                    <ul class="menu" class="nav flex-column">
-                        <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="../Page/shop.html">TIENDA</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="../Page/shop.html">SALE!</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../Page/micuenta.html">Mi Cuenta</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../Page/contacto.html">Contacto</a>
-                        </li>
-                      </ul>
-                  </div>
-              
-            </div>
+  <!-- banner -->
+  <div class="container-fluid">
+        <section class="logoPrincipal">   
+          <img id="logotipo" src="./multimedia/logos/Logo verde y rosa.png" alt="logo principal">        
+      </section>
+      <!-- Menu Desplegable-->    
+      <a class="menu" data-bs-theme="dark" class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+          Menú
+        </a>   
+        <div data-bs-theme="dark" class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-header" class="menu">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div data-bs-theme="dark" class="offcanvas-body" class="menu">
+              <div class="menu" class="dropdown mt-3">
+                  <ul class="menu" class="nav flex-column">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../Page/shop.html">TIENDA</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../Page/shop.html">SALE!</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="../Page/micuenta.html">Mi Cuenta</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="../Page/contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+                </div>
+            
           </div>
         </div>
-        </header>
+      </div>
+      </header>
  <!---------------------------------------------MAIN---------->     
-    <main class="d-flex flex-row ">
+    <main class="container-fluid" class="d-flex justify-content-between">
  <!-- Info Kiseki--> 
-        <section class="infoContacto"  class="col-lg-6 col-12 col-sm-6">
-           <div>
+        <section class="infoContacto" class="d-flex flex-column mb-2">
+           <div class="p-2">
             <h3>Kiseki Store</h3>
             <p>Dirección: Calle Wallavy 42, Sydney CP: 6574</p>
             <p>Teléfono: +54 9 11 111-111</p>
             <p>E-mail: kiseki.store@unmail.com</p>
             </div> 
             <!-- Maps--> 
-            <div class="form" id="maps">
+            <div class="form" class="p-2">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5572.06706787395!2d151.21102035948493!3d-33.85948622580625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae665e892fdd%3A0x3133f8d75a1ac251!2zw5NwZXJhIGRlIFPDrWRuZXk!5e0!3m2!1ses-419!2sar!4v1691252331434!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>   
  <!-- Formulario--> 
-        <section class="form" class="row" class="col-lg-6 col-12 col-sm-6">
+        <section class="formu" class="d-flex flex-column">
             <!-- Nommbre y Apellido-->
             <div class="form-floating mb-6">
                 <input type="text" class="form-control" id="floatingInput" placeholder="Nombre Apellido">
