@@ -20,7 +20,7 @@
     <!-- banner -->
     <div class="container-fluid">
       <section class="logoPrincipal">
-        <img id="logotipo" src="./multimedia/logos/Logo verde y rosa.png" alt="logo principal">
+        <img id="logotipo" src="../multimedia/logos/Logo verde y rosa.png" alt="logo principal">
       </section>
       <!-- Menu Desplegable-->
       <a class="menu" data-bs-theme="dark" class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample"
@@ -63,7 +63,7 @@
   <main class="container-fluid contactoContainer" class="d-flex justify-content-between">
 
     <!-- Info Kiseki-->
-    <section class="infoContacto" class="d-flex flex-column mb-2">
+    <section class="infoContacto" class="d-flex flex-column  row mb-2 col-12 col-sm-12 col-lg-6">
       <div class="p-2">
         <h3>Kiseki Store</h3>
         <p>Dirección: Calle Wallavy 42, Sydney CP: 6574</p>
@@ -81,7 +81,7 @@
     </section>
 
     <!-- Formulario-->
-    <section class="formularioContainer">
+    <section class="formularioContainer row col-12 col-sm-12 col-lg-6">
       <!-- Nommbre y Apellido-->
       <div class="form-floating mb-6 formInputsContainer">
         <input type="text" class="form-control formInputsText" id="floatingInput" placeholder="Nombre Apellido">
@@ -99,7 +99,8 @@
       </div>
       <!-- Text Area-->
       <div class="form-floating mb-6 formInputsContainer">
-        <textarea class="form-control formInputsText" placeholder="Dejanos tus dudas o comentarios" id="floatingTextarea2"></textarea>
+        <textarea class="form-control formInputsText" placeholder="Dejanos tus dudas o comentarios"
+          id="floatingTextarea2" style="height: 100px"></textarea>
         <label for="floatingTextarea2">Comentarios</label>
       </div>
       <!-- Enviar-->
@@ -110,20 +111,30 @@
 
   </main>
   <!---------------------------------------FOOTER---------->
-  <footer>
+  <footer class="container-fluid">
     <!-- info -->
-    <section class="footer-info">
 
+    <section class="footer-info redes container">
       <div class="infoPie">
         <img id="footer-logo" src="../multimedia/logos/Disminucion verde y rosa.png" alt="disminusion logo">
         <h3>Kiseki Store</h3>
         <p>Calle Wallavy 42, Sydney</p>
-        <p>+54 9 11 111-111</p>
-        <p>kiseki.store@unmail.com</p>
         <!-- Redes -->
-        <a href="https://www.instagram.com/">Instagram </a> <a href="https://www.tiktok.com/es/">TikTok</a> <a
-          href="https://web.whatsapp.com/">Whatsapp</a>
+        <a class="logos" href="https://www.instagram.com/">
+          <img class="logos" src="../multimedia/PNG LOGOS/instagram.png" alt="instagram">
+        </a>
+        <a href="https://www.gmail.com">
+          <img class="logos" src="../multimedia/PNG LOGOS/sobre.png" alt="email">
+        </a>
+        <a href="https://www.tiktok.com/es/">
+          <img class="logos" src="../multimedia/PNG LOGOS/tik-tok.png" alt="tiktok">
+        </a>
+        <a href="https://web.whatsapp.com/">
+          <img class="logos" src="../multimedia/PNG LOGOS/whatsapp.png" alt="whatsapp">
+        </a>
       </div>
+
+      <!-- Mi cuenta  -->
       <div class="navfooter">
         <nav>
           <ul> <a href="../Page/micuenta.html">Mi Cuenta</a>
@@ -132,6 +143,7 @@
           </ul>
         </nav>
       </div>
+      <!-- Info -->
       <div class="navfooter">
         <nav>
           <ul> <a href="../Page/info.html">Informacion</a>
