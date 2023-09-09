@@ -72,7 +72,12 @@ h2{
 /* index html */
 .destacada-home{
     margin: 50px;
+    justify-content: center !important;
 
+}
+
+.carrouselContainer{
+    width: 50rem !important;
 }
 
 main{
@@ -112,12 +117,46 @@ main{
  }
 
 /* contacto html*/
+
+.contactoContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .main-contacto{
     margin: 50px;
 }
 .infoContacto {
         color: #FF22A9;
     }
+
+.formularioContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    width: 50%;
+    height: 50%;
+    min-height: 400px
+}
+
+.formInputsContainer{
+    display: flex;
+    width: 80% !important;
+    margin-bottom: 1rem;
+}
+
+.formInputsText{
+    font-size: large !important;
+    height: 60px !important;
+}
+
+
        
 iframe{
         height: 80%;     
