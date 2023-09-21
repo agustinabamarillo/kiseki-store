@@ -1,0 +1,52 @@
+/* -----------------------FOOTER-------------- */
+footer {
+    background-image: url(../multimedia/FONDO\ NEGRO\ copia.png);
+    background-size: cover;
+    background-position: 100%;
+    color: $lima;
+    .logos {
+        width: 30px;
+        margin: 2px;
+    }    
+    .footer-info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }    
+    .navfooter {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    img {
+        width: 50px;
+        }    
+    h3 {
+        font-size: 1.5rem;
+    }    
+    p {
+        font-size: 1.2rem;
+    }    
+    .copyright p {
+        color: $verdeOscuro;
+        font-size: 1rem;
+        text-align: center;
+        margin: 30px;
+    }    
+    li {
+        list-style-type: none;
+        font-size: 1.6rem;
+    }    
+    .navfooter2 {
+        text-align: right;
+    }    
+    .navfooter a {
+        font-size: 1.6rem;
+        color: $fucsia;    
+    }    
+    .navfooter2 a {
+        font-size: 1.6rem;
+        color: $fucsia;    
+    }
+}

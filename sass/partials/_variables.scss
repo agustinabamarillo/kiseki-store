@@ -1,0 +1,36 @@
+//fuente
+@font-face {
+    font-family: 'glimer';
+    src: url(../multimedia/Gilmer-Font/Gilmer\ Regular.otf);
+}
+
+// variables
+$lima:#BAEE2E;
+$verdeOscuro: #1D8A7E;
+$fucsia: #FF22A9;
+$negro: #232323;
+$gris: #E4E4E4;
+$font: 'glimer';
+
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: black;
+    font-family: 'glimer';
+}
+main{
+    h1 {
+        color:$lima;
+        font-size: 3rem;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    h2 {
+        color:$lima;
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 20px;
+    }
+}

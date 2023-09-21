@@ -1,0 +1,43 @@
+/* -----------------------HEADER-------------- */
+/* Fondo + logo tipografia -banner */
+header {
+    background-image: url(../multimedia/FONDO\ NEGRO\ copia.png);
+    background-color: black;
+    background-position: 100%;
+    /* colocar aca el position sticky top 0 */
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    img {
+        width: 250px;
+    }
+    .logoPrincipal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+    }
+    /* Menu nav */
+    .menuTitulo a {
+    text-decoration: none;
+    font-size: 2rem;
+    }
+
+    .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    top: 20px;
+    text-decoration: none;
+    font-size: 2rem;
+    color: $lima;
+    list-style-type: none;
+    }
+}
+
+
+
+
+

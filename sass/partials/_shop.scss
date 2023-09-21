@@ -1,0 +1,26 @@
+    /* shop html*/
+main {
+    color: $lima;
+    font-size: 1.5rem;
+    .tienda img {
+        width: 300px;
+    }
+
+    .tienda {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: start;
+        margin: 50px 50px;
+    }
+
+    .shop {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .shop a {
+        color: $fucsia;
+    }
+}

@@ -1,0 +1,275 @@
+@font-face {
+  font-family: "glimer";
+  src: url(../multimedia/Gilmer-Font/Gilmer\ Regular.otf);
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: black;
+  font-family: "glimer";
+}
+
+main h1 {
+  color: #BAEE2E;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 20px;
+}
+main h2 {
+  color: #BAEE2E;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* -----------------------HEADER-------------- */
+/* Fondo + logo tipografia -banner */
+header {
+  background-image: url(../multimedia/FONDO\ NEGRO\ copia.png);
+  background-color: black;
+  background-position: 100%;
+  /* colocar aca el position sticky top 0 */
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+  /* Menu nav */
+}
+header img {
+  width: 250px;
+}
+header .logoPrincipal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+header .menuTitulo a {
+  text-decoration: none;
+  font-size: 2rem;
+}
+header .menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  top: 20px;
+  text-decoration: none;
+  font-size: 2rem;
+  color: #BAEE2E;
+  list-style-type: none;
+}
+
+body {
+  background-color: black;
+  font-family: "glimer";
+}
+
+main {
+  /* index html */
+}
+main h1 {
+  color: #BAEE2E;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 20px;
+}
+main h2 {
+  color: #BAEE2E;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 20px;
+}
+main .destacada-home {
+  margin: 50px;
+  justify-content: center !important;
+}
+main .carrouselContainer {
+  width: 50rem !important;
+}
+main main {
+  color: #BAEE2E;
+  font-size: 1.5rem;
+}
+main .carru-ancho {
+  width: 50%;
+}
+main .link-carru {
+  color: #FF22A9;
+  text-align: center;
+  margin: 30px;
+  text-decoration: none;
+  font-size: 80%;
+}
+
+/* shop html*/
+main {
+  color: #BAEE2E;
+  font-size: 1.5rem;
+}
+main .tienda img {
+  width: 300px;
+}
+main .tienda {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: start;
+  margin: 50px 50px;
+}
+main .shop {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+main .shop a {
+  color: #FF22A9;
+}
+
+/* info html */
+main {
+  color: #BAEE2E;
+  font-size: 1.5rem;
+}
+main .info-html {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main .Nosotros {
+  color: #FF22A9;
+  font-size: 2rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 20px;
+  font-style: italic;
+  width: 30%;
+}
+main .Nosotros p {
+  font-size: 1.5rem;
+}
+main .pago-envio {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+main ol {
+  color: #FF22A9;
+  font-size: 1.5rem;
+  list-style-type: none;
+}
+main main ul {
+  list-style-type: none;
+  color: #FF22A9;
+  font-size: 2rem;
+}
+main main li a {
+  color: #FF22A9;
+  font-size: 2rem;
+}
+
+/* contacto html*/
+main {
+  color: #BAEE2E;
+  font-size: 1.5rem;
+}
+main .contactoContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+main .infoContacto {
+  color: #FF22A9;
+}
+main .formularioContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  min-height: 400px;
+}
+main .formInputsContainer {
+  display: flex;
+  width: 80% !important;
+  margin-bottom: 1rem;
+}
+main .formInputsText {
+  font-size: medium !important;
+}
+main iframe {
+  height: 100%;
+}
+main label {
+  color: #FF22A9;
+  font-size: 1.2rem;
+}
+main form p {
+  color: #FF22A9;
+  font-size: 1.2rem;
+}
+
+/* -----------------------FOOTER-------------- */
+footer {
+  background-image: url(../multimedia/FONDO\ NEGRO\ copia.png);
+  background-size: cover;
+  background-position: 100%;
+  color: #BAEE2E;
+}
+footer .logos {
+  width: 30px;
+  margin: 2px;
+}
+footer .footer-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .navfooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+footer img {
+  width: 50px;
+}
+footer h3 {
+  font-size: 1.5rem;
+}
+footer p {
+  font-size: 1.2rem;
+}
+footer .copyright p {
+  color: #1D8A7E;
+  font-size: 1rem;
+  text-align: center;
+  margin: 30px;
+}
+footer li {
+  list-style-type: none;
+  font-size: 1.6rem;
+}
+footer .navfooter2 {
+  text-align: right;
+}
+footer .navfooter a {
+  font-size: 1.6rem;
+  color: #FF22A9;
+}
+footer .navfooter2 a {
+  font-size: 1.6rem;
+  color: #FF22A9;
+}
+
+/*# sourceMappingURL=estilos.css.map */

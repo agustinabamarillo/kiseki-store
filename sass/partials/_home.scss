@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    font-family: 'glimer'; 
+}
+main {
+    h1 {
+        color: $lima;
+        font-size: 3rem;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    h2 {
+        color: $lima;
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 20px;
+    }   
+    /* index html */
+    .destacada-home {
+    margin: 50px;
+    justify-content: center !important;
+    }
+    .carrouselContainer {
+    width: 50rem !important;
+    }
+    main {
+    color: $lima;
+    font-size: 1.5rem;
+    }
+    .carru-ancho {
+    width: 50%;
+    }
+    .link-carru {
+    color: $fucsia;
+    text-align: center;
+    margin: 30px;
+    text-decoration: none;
+    font-size: 80%;
+    } 
+}

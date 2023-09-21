@@ -1,0 +1,50 @@
+/* contacto html*/
+main {
+    color: $lima;
+    font-size: 1.5rem;
+    .contactoContainer {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+    }
+    
+    .infoContacto {
+        color: $fucsia;
+    }
+    
+    .formularioContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        min-height: 400px
+    }
+    
+    .formInputsContainer {
+        display: flex;
+        width: 80% !important;
+        margin-bottom: 1rem;
+    }
+    
+    .formInputsText {
+        font-size: medium !important;
+    }
+    
+    iframe {
+        height: 100%;
+    }
+    
+    label {
+        color: $fucsia;
+        font-size: 1.2rem;
+    }
+    
+    form p {
+        color:$fucsia;
+        font-size: 1.2rem;
+    }
+}
