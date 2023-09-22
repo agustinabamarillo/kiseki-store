@@ -11,19 +11,6 @@ body {
   font-family: "glimer";
 }
 
-main h1 {
-  color: #BAEE2E;
-  font-size: 3rem;
-  text-align: center;
-  margin-top: 20px;
-}
-main h2 {
-  color: #BAEE2E;
-  font-size: 2rem;
-  text-align: center;
-  margin-top: 20px;
-}
-
 /* -----------------------HEADER-------------- */
 /* Fondo + logo tipografia -banner */
 header {
@@ -68,6 +55,8 @@ body {
 }
 
 main {
+  color: #BAEE2E;
+  font-size: 1.5rem;
   /* index html */
 }
 main h1 {
@@ -88,10 +77,6 @@ main .destacada-home {
 }
 main .carrouselContainer {
   width: 50rem !important;
-}
-main main {
-  color: #BAEE2E;
-  font-size: 1.5rem;
 }
 main .carru-ancho {
   width: 50%;
@@ -124,6 +109,7 @@ main .shop {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  padding: 10px 10px;
 }
 main .shop a {
   color: #FF22A9;
@@ -178,7 +164,7 @@ main main li a {
 /* contacto html*/
 main {
   color: #BAEE2E;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 main .contactoContainer {
   display: flex;
@@ -196,16 +182,16 @@ main .formularioContainer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 50%;
+  height: 60%;
   min-height: 400px;
 }
 main .formInputsContainer {
   display: flex;
-  width: 80% !important;
+  width: 80%;
   margin-bottom: 1rem;
 }
 main .formInputsText {
-  font-size: medium !important;
+  font-size: medium;
 }
 main iframe {
   height: 100%;
