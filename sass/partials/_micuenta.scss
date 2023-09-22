@@ -1,0 +1,24 @@
+//mi cuenta
+.miCuenta {
+    color: $fucsia;
+    text-align: start;
+    align-content: flex-start;
+    display: flex;
+    margin: 50px 50px 50px 50px;
+
+    .cuenta {
+        margin: 50px 50px 50px 50px;
+    }
+
+    ul {
+        list-style-type: none;
+
+        li a {
+            text-decoration: none;
+            list-style-type: none;
+            list-style: none;
+            color: $fucsia;
+        }
+    }
+
+}

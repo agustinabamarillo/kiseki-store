@@ -102,16 +102,36 @@ main .tienda {
   flex-direction: row;
   justify-content: space-around;
   align-items: start;
-  margin: 50px 50px;
+  margin: 50px 50px 50px 50px;
 }
 main .shop {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  padding: 10px 10px;
+  padding: 10px 10px 10px 10px;
 }
 main .shop a {
+  color: #FF22A9;
+}
+
+.miCuenta {
+  color: #FF22A9;
+  text-align: start;
+  align-content: flex-start;
+  display: flex;
+  margin: 50px 50px 50px 50px;
+}
+.miCuenta .cuenta {
+  margin: 50px 50px 50px 50px;
+}
+.miCuenta ul {
+  list-style-type: none;
+}
+.miCuenta ul li a {
+  text-decoration: none;
+  list-style-type: none;
+  list-style: none;
   color: #FF22A9;
 }
 
@@ -203,6 +223,14 @@ main label {
 main form p {
   color: #FF22A9;
   font-size: 1.2rem;
+}
+
+.construccion h2 {
+  color: #FF22A9;
+  font-size: 7rem;
+  margin: 200px 100px;
+  --animate-duration: 3s;
+  --animate-delay: 9s;
 }
 
 /* -----------------------FOOTER-------------- */
