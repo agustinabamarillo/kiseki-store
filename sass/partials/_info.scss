@@ -1,13 +1,15 @@
 /* info html */
-main {
-    color: $lima;
-    font-size: 1.5rem;
-    .info-html {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+.info-html {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-direction: row-reverse;
+
+    h3 {
+        text-decoration: underline;
+
     }
-    
+
     .Nosotros {
         color: $fucsia;
         font-size: 2rem;
@@ -18,34 +20,35 @@ main {
         align-items: start;
         padding: 20px;
         font-style: italic;
-        width: 30%;
+
     }
-    
+
     .Nosotros p {
         font-size: 1.5rem;
     }
-    
+
     .pago-envio {
         display: flex;
         flex-direction: column;
         justify-content: start;
         align-items: start;
     }
-    
+
     ol {
         color: $fucsia;
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         list-style-type: none;
     }
-    
+
     main ul {
         list-style-type: none;
         color: $fucsia;
         font-size: 2rem;
     }
-    
+
     main li a {
         color: $fucsia;
-        font-size: 2rem;
+        font-size: 1.5rem;
+        list-style-type: none;
     }
 }

@@ -16,6 +16,7 @@ body {
 header {
   background-image: url(../multimedia/FONDO\ NEGRO\ copia.png);
   background-color: black;
+  background-size: 100%;
   background-position: 100%;
   /* colocar aca el position sticky top 0 */
   position: sticky;
@@ -96,13 +97,15 @@ main {
 }
 main .tienda img {
   width: 300px;
+  padding: 10px;
 }
 main .tienda {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: start;
-  margin: 50px 50px 50px 50px;
+  margin: 50px;
+  padding: 10px;
 }
 main .shop {
   display: flex;
@@ -110,6 +113,7 @@ main .shop {
   justify-content: space-around;
   align-items: center;
   padding: 10px 10px 10px 10px;
+  gap: 10px;
 }
 main .shop a {
   color: #FF22A9;
@@ -120,7 +124,6 @@ main .shop a {
   text-align: start;
   align-content: flex-start;
   display: flex;
-  margin: 50px 50px 50px 50px;
 }
 .miCuenta .cuenta {
   margin: 50px 50px 50px 50px;
@@ -136,16 +139,16 @@ main .shop a {
 }
 
 /* info html */
-main {
-  color: #BAEE2E;
-  font-size: 1.5rem;
-}
-main .info-html {
+.info-html {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: baseline;
+  flex-direction: row-reverse;
 }
-main .Nosotros {
+.info-html h3 {
+  text-decoration: underline;
+}
+.info-html .Nosotros {
   color: #FF22A9;
   font-size: 2rem;
   text-align: left;
@@ -155,30 +158,30 @@ main .Nosotros {
   align-items: start;
   padding: 20px;
   font-style: italic;
-  width: 30%;
 }
-main .Nosotros p {
+.info-html .Nosotros p {
   font-size: 1.5rem;
 }
-main .pago-envio {
+.info-html .pago-envio {
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: start;
 }
-main ol {
+.info-html ol {
+  color: #FF22A9;
+  font-size: 1.4rem;
+  list-style-type: none;
+}
+.info-html main ul {
+  list-style-type: none;
+  color: #FF22A9;
+  font-size: 2rem;
+}
+.info-html main li a {
   color: #FF22A9;
   font-size: 1.5rem;
   list-style-type: none;
-}
-main main ul {
-  list-style-type: none;
-  color: #FF22A9;
-  font-size: 2rem;
-}
-main main li a {
-  color: #FF22A9;
-  font-size: 2rem;
 }
 
 /* contacto html*/
@@ -193,9 +196,13 @@ main .contactoContainer {
   flex-direction: row;
   justify-content: space-around;
   align-content: center;
+  margin-top: 50px;
 }
 main .infoContacto {
   color: #FF22A9;
+}
+main iframe {
+  height: 100%;
 }
 main .formularioContainer {
   display: flex;
@@ -213,9 +220,6 @@ main .formInputsContainer {
 main .formInputsText {
   font-size: medium;
 }
-main iframe {
-  height: 100%;
-}
 main label {
   color: #FF22A9;
   font-size: 1.2rem;
@@ -226,11 +230,92 @@ main form p {
 }
 
 .construccion h2 {
+  padding: 70px;
   color: #FF22A9;
-  font-size: 7rem;
-  margin: 200px 100px;
+  font-size: 3rem;
   --animate-duration: 3s;
   --animate-delay: 9s;
+}
+.construccion .proximamente {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 70px;
+}
+.construccion .glitch {
+  position: relative;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #fff;
+  letter-spacing: 5px;
+  z-index: 1;
+  animation: shift 1s ease-in-out infinite alternate;
+}
+.construccion .glitch:before,
+.construccion .glitch:after {
+  display: block;
+  content: attr(data-glitch);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+}
+.construccion .glitch:before {
+  animation: glitch 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+  color: #8b00ff;
+  z-index: -1;
+}
+.construccion .glitch:after {
+  animation: glitch 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
+  color: #00e571;
+  z-index: -2;
+}
+@keyframes glitch {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-3px, 3px);
+  }
+  40% {
+    transform: translate(-3px, -3px);
+  }
+  60% {
+    transform: translate(3px, 3px);
+  }
+  80% {
+    transform: translate(3px, -3px);
+  }
+  to {
+    transform: translate(0);
+  }
+}
+@keyframes shift {
+  0%, 40%, 44%, 58%, 61%, 65%, 69%, 73%, 100% {
+    transform: skewX(0deg);
+  }
+  41% {
+    transform: skewX(10deg);
+  }
+  42% {
+    transform: skewX(-10deg);
+  }
+  59% {
+    transform: skewX(40deg) skewY(10deg);
+  }
+  60% {
+    transform: skewX(-40deg) skewY(-10deg);
+  }
+  63% {
+    transform: skewX(10deg) skewY(-5deg);
+  }
+  70% {
+    transform: skewX(-50deg) skewY(-20deg);
+  }
+  71% {
+    transform: skewX(10deg) skewY(-10deg);
+  }
 }
 
 /* -----------------------FOOTER-------------- */
@@ -241,7 +326,7 @@ footer {
   color: #BAEE2E;
 }
 footer .logos {
-  width: 30px;
+  width: 20px;
   margin: 2px;
 }
 footer .footer-info {

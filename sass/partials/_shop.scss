@@ -1,27 +1,32 @@
     /* shop html*/
-main {
-    color: $lima;
-    font-size: 1.5rem;
-    .tienda img {
-        width: 300px;
-    }
+    main {
+        color: $lima;
+        font-size: 1.5rem;
 
-    .tienda {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: start;
-        margin: 50px 50px 50px 50px;
-    }
+        .tienda img {
+            width: 300px;
+            padding: 10px;
+        }
 
-    .shop {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        padding: 10px 10px 10px 10px;
+        .tienda {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: start;
+            margin: 50px;
+            padding: 10px;
+        }
+
+        .shop {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px 10px 10px 10px;
+            gap: 10px;
+        }
+
+        .shop a {
+            color: $fucsia;
+        }
     }
-    .shop a {
-        color: $fucsia;
-    }
-}

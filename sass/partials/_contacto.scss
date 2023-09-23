@@ -2,6 +2,7 @@
 main {
     color: $lima;
     font-size: 1.7rem;
+
     .contactoContainer {
         display: flex;
         flex-wrap: wrap;
@@ -9,12 +10,16 @@ main {
         flex-direction: row;
         justify-content: space-around;
         align-content: center;
+        margin-top: 50px;
     }
-    
+
     .infoContacto {
         color: $fucsia;
     }
-    
+    iframe {
+        height: 100%;
+    }
+
     .formularioContainer {
         display: flex;
         flex-direction: column;
@@ -23,28 +28,27 @@ main {
         height: 60%;
         min-height: 400px
     }
-    
+
     .formInputsContainer {
         display: flex;
         width: 80%;
         margin-bottom: 1rem;
     }
-    
+
     .formInputsText {
         font-size: medium;
     }
+
     
-    iframe {
-        height: 100%;
-    }
-    
+
     label {
         color: $fucsia;
         font-size: 1.2rem;
     }
-    
+
     form p {
-        color:$fucsia;
+        color: $fucsia;
         font-size: 1.2rem;
     }
+
 }
