@@ -26,6 +26,7 @@ main {
     .carrouselContainer {
     width: 50rem !important;
     }
+    /*dejo estos dos important debido a que no pude solucionar el problema del carrousel de BS y cuando los saco se me desacomoda y agrandan las imagenes al ir pasandolas en el correusel*/
     .carru-ancho {
     width: 50%;
     }

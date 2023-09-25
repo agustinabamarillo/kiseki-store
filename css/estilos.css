@@ -59,6 +59,7 @@ main {
   color: #BAEE2E;
   font-size: 1.5rem;
   /* index html */
+  /*dejo estos dos important debido a que no pude solucionar el problema del carrousel de BS y cuando los saco se me desacomoda y agrandan las imagenes al ir pasandolas en el correusel*/
 }
 main h1 {
   color: #BAEE2E;
