@@ -74,7 +74,7 @@ main h2 {
   margin-top: 20px;
 }
 main .destacada-home {
-  margin: 50px;
+  margin-top: 50px;
   justify-content: center !important;
 }
 main .carrouselContainer {
@@ -105,7 +105,7 @@ main .tienda {
   flex-direction: row;
   justify-content: space-around;
   align-items: start;
-  margin: 50px;
+  margin-top: 50px;
   padding: 10px;
 }
 main .shop {
