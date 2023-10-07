@@ -5,7 +5,7 @@
 }
 
 // variables
-$lima:#BAEE2E;
+$lima: #BAEE2E;
 $verdeOscuro: #1D8A7E;
 $fucsia: #FF22A9;
 $negro: #232323;
@@ -15,7 +15,15 @@ $font: 'glimer';
 html {
     font-size: 62.5%;
 }
+
+
 body {
     background-color: black;
     font-family: 'glimer';
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-size: 100%;
+    background-position: 100%;
+    
 }

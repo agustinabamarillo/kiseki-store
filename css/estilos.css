@@ -9,6 +9,11 @@ html {
 body {
   background-color: black;
   font-family: "glimer";
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  background-size: 100%;
+  background-position: 100%;
 }
 
 /* -----------------------HEADER-------------- */
@@ -92,31 +97,41 @@ main .link-carru {
 }
 
 /* shop html*/
-main {
-  color: #BAEE2E;
-  font-size: 1.5rem;
+.tiendaTitulo {
+  padding: 0px;
+  margin: 0px;
 }
-main .tienda img {
+.tiendaTitulo h1 {
+  color: #FF22A9;
+  text-align: center;
+}
+.tiendaTitulo h2 {
+  color: #BAEE2E;
+  font-size: 2rem;
+  text-align: initial;
+}
+.tiendaTitulo .tienda img {
   width: 300px;
   padding: 10px;
 }
-main .tienda {
+.tiendaTitulo .tienda {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: start;
+  align-items: center;
   margin-top: 50px;
+  margin-bottom: 20px;
   padding: 10px;
 }
-main .shop {
+.tiendaTitulo .shop {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  padding: 10px 10px 10px 10px;
-  gap: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
 }
-main .shop a {
+.tiendaTitulo .shop a {
   color: #FF22A9;
 }
 
@@ -125,6 +140,10 @@ main .shop a {
   text-align: start;
   align-content: flex-start;
   display: flex;
+}
+.miCuenta #micuenta-titulo h1 {
+  color: #BAEE2E;
+  text-align: center;
 }
 .miCuenta .cuenta {
   margin: 50px 50px 50px 50px;
@@ -146,10 +165,16 @@ main .shop a {
   align-items: baseline;
   flex-direction: row-reverse;
 }
-.info-html h3 {
-  text-decoration: underline;
+.info-html h1 {
+  margin-top: 10px;
 }
-.info-html .Nosotros {
+.info-html h2 {
+  text-decoration: underline;
+  color: #FF22A9;
+  font-size: 2rem;
+  text-align: start;
+}
+.info-html .nosotros {
   color: #FF22A9;
   font-size: 2rem;
   text-align: left;
@@ -159,8 +184,9 @@ main .shop a {
   align-items: start;
   padding: 20px;
   font-style: italic;
+  margin-bottom: 20px;
 }
-.info-html .Nosotros p {
+.info-html .nosotros p {
   font-size: 1.5rem;
 }
 .info-html .pago-envio {
@@ -189,6 +215,12 @@ main .shop a {
 main {
   color: #BAEE2E;
   font-size: 1.7rem;
+  margin-top: 50px;
+}
+main .contactanos h1 {
+  color: #FF22A9;
+  text-align: center;
+  padding-top: 30px;
 }
 main .contactoContainer {
   display: flex;
@@ -197,6 +229,7 @@ main .contactoContainer {
   flex-direction: row;
   justify-content: space-around;
   align-content: center;
+  text-align: center;
   margin-top: 50px;
 }
 main .infoContacto {

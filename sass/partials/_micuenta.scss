@@ -4,6 +4,12 @@
     text-align: start;
     align-content: flex-start;
     display: flex;
+    #micuenta-titulo{
+        h1 {
+            color: $lima;
+            text-align: center;
+        }
+    }
 
     .cuenta {
         margin: 50px 50px 50px 50px;
